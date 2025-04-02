@@ -1,0 +1,26 @@
+{
+  "name": "pre-entrega-uno",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lucas Lescano",
+  "license": "ISC",
+  "description": "Coderhouse. Carrera de Desarrollo Full Stack. Programación Backend III: Testing y Escalabilidad Backend. Comisión 70360.",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.1",
+    "winston": "^3.17.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0"
+  }
+}
