@@ -1,4 +1,3 @@
-import { de } from '@faker-js/faker';
 import pkg from 'winston';
 
 const { createLogger, format, transports } = pkg;
